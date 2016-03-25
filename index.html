@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Service worker demo</title>
+  <link rel="stylesheet" href="">
+
+<!-- Put this code on your site (so that it appears on every page) -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js');
+    }
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
